@@ -7,7 +7,7 @@ export default props => {
             <div>
             <span>
                 <span>Resultado:</span>
-                <strong>5</strong>
+                <strong>{10}</strong>
             </span>
             </div>
         </Card>

@@ -9,17 +9,17 @@ import Sorteio from './components/Sorteio';
 
 
 function App() {
+
   return (
     <div className="App">
       <h1>Exercício React-Redux (Simples)</h1>
       <div className='linha'>
         <Intervalo></Intervalo>
-
       </div>
       <div className='linha'>
-        <Media minimo={1} maximo={10}></Media>
-        <Soma  minimo={1} maximo={10}></Soma>
-        <Sorteio minimo={1} maximo={10}></Sorteio>
+        <Media></Media>
+        <Soma></Soma>
+        <Sorteio></Sorteio>
       </div>
     </div>
   );
