@@ -3,7 +3,10 @@ import logo from './logo.svg';
 import './App.css';
 
 import Intervalo from './components/Intervalo';
-import Card from './components/Card';
+import Media from './components/Media';
+import Soma from './components/Soma';
+import Sorteio from './components/Sorteio';
+
 
 function App() {
   return (
@@ -14,9 +17,9 @@ function App() {
 
       </div>
       <div className='linha'>
-        <Card title='Card 2' green>X</Card>
-        <Card title='Card 3' blue>Y</Card>
-        <Card title='Card 4'purple>Y</Card>
+        <Media minimo={1} maximo={10}></Media>
+        <Soma  minimo={1} maximo={10}></Soma>
+        <Sorteio minimo={1} maximo={10}></Sorteio>
       </div>
     </div>
   );
